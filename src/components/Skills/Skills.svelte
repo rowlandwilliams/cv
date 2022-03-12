@@ -1,15 +1,20 @@
 <script lang="ts">
-	import Skill from './Skill/Skill.svelte';
+	import SkillSection from './SkillSection/SkillSection.svelte';
 
 	const skills: { language: string; libraries: string[] }[] = [
-		{ language: 'JavaScript', libraries: ['React', 'TypeScript', 'd3.js'] },
+		{
+			language: 'JavaScript',
+			libraries: ['React', 'TypeScript', 'd3.js', 'deck.gl', 'Apollo', 'Redux']
+		},
 		{ language: 'Design', libraries: ['Figma', 'Adobe'] }
 	];
 </script>
 
-<h1>Skills</h1>
-<div class="text-xs flex flex-col gap-y-2">
-	{#each skills as skill}
-		<Skill {skill} />
-	{/each}
-</div>
+<section class="flex flex-col gap-y-1 w-40">
+	<h1 class="text-sm font-inter-medium">Skills</h1>
+	<div class="flex flex-col gap-y-2">
+		{#each skills as skill}
+			<SkillSection {skill} />
+		{/each}
+	</div>
+</section>
