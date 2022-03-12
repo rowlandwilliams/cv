@@ -1,3 +1,5 @@
+import type { Timeframe } from './../../../types/types';
+
 const months = [
 	'Jan',
 	'Feb',
@@ -13,7 +15,7 @@ const months = [
 	'Dec'
 ];
 
-export const getMonthAndYear = (dateString: string) => {
+const getMonthAndYear = (dateString: string) => {
 	const date = new Date(dateString);
 
 	const month = months[date.getMonth()];
@@ -22,7 +24,16 @@ export const getMonthAndYear = (dateString: string) => {
 	return `${month} ${year}`;
 };
 
-export const getMonthDiff = (timeframe: { start: string; end?: string }) => {
+export const getTimeframe = (timeframe: Timeframe) => {
+	const { start, end } = timeframe;
+
+	const startDate = getMonthAndYear(start);
+	const endDate = end ? getMonthAndYear(end) : 'Present';
+
+	return `${startDate} - ${endDate}`;
+};
+
+export const getMonthDiff = (timeframe: Timeframe) => {
 	const { start, end } = timeframe;
 
 	const dateFrom = new Date(start);

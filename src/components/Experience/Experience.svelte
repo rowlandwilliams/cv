@@ -6,6 +6,13 @@
 
 	const jobs: Jobs = [
 		{
+			title: 'Data Visualisation Engineer',
+			employer: 'Freelance',
+			image: 'rowland.svg',
+			imageColorClass: 'bg-yellow-100',
+			timeframe: { start: '2020-11' }
+		},
+		{
 			title: 'Tech Lead',
 			employer: 'Flow',
 			image: 'flow.svg',
