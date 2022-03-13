@@ -4,7 +4,7 @@
 	import Header from '../components/Header/Header.svelte';
 </script>
 
-<section class="container flex flex-col overflow-hidden border px-8 py-4  text-xs">
+<section class="container flex flex-col overflow-hidden px-8 py-2  text-xs">
 	<Header />
 	<Bio />
 	<Experience />

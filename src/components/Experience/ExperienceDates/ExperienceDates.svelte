@@ -8,6 +8,6 @@
 
 <div class="flex gap-x-1">
 	<div>{getTimeframe(timeframe)}</div>
-	<p>&#8226;</p>
+	<p class="text-indigo-500">&#8226;</p>
 	<div>{getMonthDiff(timeframe)}</div>
 </div>

@@ -3,7 +3,10 @@ interface Job {
 	employer: string;
 	image: string;
 	imageColorClass: string;
+	bullets: string[];
 	timeframe: Timeframe;
+	contractType: string;
+	locations: string[];
 }
 
 export interface Timeframe {

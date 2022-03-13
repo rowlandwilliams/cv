@@ -11,7 +11,7 @@
 </script>
 
 <section class="flex flex-col gap-y-1 w-40">
-	<h1 class="text-sm font-inter-medium">Skills</h1>
+	<h1 class="text-sm">Skills</h1>
 	<div class="flex flex-col gap-y-2">
 		{#each skills as skill}
 			<SkillSection {skill} />
