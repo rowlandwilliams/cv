@@ -2,23 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-	@font-face {
-		font-family: 'Inter-Regular';
-		src: url(./fonts/Inter-Regular.ttf);
-	}
-
-	@font-face {
-		font-family: 'Inter-Medium';
-		src: url(./fonts/Inter-Medium.ttf);
-	}
-
-	@font-face {
-		font-family: 'Inter-SemiBold';
-		src: url(./fonts/Inter-SemiBold.ttf);
-	}
-}
-
 .container {
 	width: 8.25in;
 	height: 11.75in;
@@ -30,6 +13,5 @@
 		width: 8.25in;
 		height: 11.75in;
 		margin: 0 0 0 0;
-		font-family: Inter, sans-serif;
 	}
 }

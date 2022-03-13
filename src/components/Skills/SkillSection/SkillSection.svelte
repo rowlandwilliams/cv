@@ -7,7 +7,7 @@
 	<h1 class="mb-1">{language}</h1>
 	<div class="grid grid-cols-3 gap-1">
 		{#each libraries as library}
-			<p class="rounded-sm border text-center  text-2xs text-gray-500">
+			<p class="rounded-sm border border-gray-100 text-center text-gray-500">
 				{library}
 			</p>{/each}
 	</div>

@@ -3,12 +3,18 @@
 	import Bio from '../components/Bio/Bio.svelte';
 	import Experience from '../components/Experience/Experience.svelte';
 	import Header from '../components/Header/Header.svelte';
+	import Education from '../components/Education/Education.svelte';
 </script>
 
-<section class="container flex flex-col overflow-hidden px-8 py-2 text-xs">
-	<Header />
-	<Bio />
-	<Experience />
+<section class="py- container flex flex-col border px-4 text-xs">
+	<div class="h-full overflow-hidden bg-white">
+		<Header />
+		<Bio />
+		<Experience />
 
-	<Skills />
+		<div class="grid grid-cols-2 gap-x-4">
+			<Skills />
+			<Education />
+		</div>
+	</div>
 </section>

@@ -3,7 +3,7 @@
 </script>
 
 <div class="py-2">
-	<ul class="list-inside list-disc text-2xs marker:text-indigo-500">
+	<ul class="list-inside list-disc marker:text-indigo-500">
 		{#each bullets as bullet}
 			<li class="">{bullet}</li>
 		{/each}

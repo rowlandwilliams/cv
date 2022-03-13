@@ -1,6 +1,7 @@
 <script lang="ts">
 	import classNames from 'classnames';
 
+	export let withArrow: boolean;
 	export let imageColorClass: string;
 	export let image: string;
 	export let title: string;
@@ -17,7 +18,7 @@
 			<h2 class="hover:text-indigo-500 hover:underline ">{employer}</h2>
 		</div>
 	</div>
-	<div class="text-right text-indigo-500">
-		&#x2192;
-	</div>
+	{#if withArrow}
+		<div class="text-right text-indigo-500">&#x2192;</div>
+	{/if}
 </div>

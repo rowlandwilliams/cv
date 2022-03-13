@@ -33,7 +33,7 @@ export const jobs: Jobs = [
 		imageColorClass: 'bg-black',
 		bullets: [
 			'Discovery work for a novel ESG Investment platform.',
-			'Designed visualisations and established UI component library using Storybook.'
+			'Developed visualisations and established UI component library using Storybook.'
 		],
 		timeframe: { start: '2021-05', end: '2021-07' },
 		contractType: ['Contract', 'Full-time'],
@@ -45,7 +45,7 @@ export const jobs: Jobs = [
 		image: 'globalcanopy.svg',
 		imageColorClass: 'bg-green-200',
 		bullets: [
-			'Analysis / visualisation of data from TRASE, a supply chain transparency initiative for agricultural commodities.',
+			'Analysis of data from TRASE, a supply chain transparency initiative for agricultural commodities.',
 			'Worked from briefs to write data-driven stories and visualisations for communications materials.'
 		],
 		timeframe: { start: '2017-10', end: '2018-04' },
