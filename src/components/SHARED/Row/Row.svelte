@@ -6,7 +6,7 @@
 
 <Section>
 	<div class="grid grid-cols-6">
-		<div class="text-indigo-800">{rowHeader}</div>
+		<div class="font-medium text-indigo-500">{rowHeader}</div>
 		<div class="col-span-5 text-gray-500">
 			<slot />
 		</div>

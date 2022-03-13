@@ -15,7 +15,7 @@
 	export let locations: string[];
 </script>
 
-<div class="flex flex-col gap-y-2 rounded-sm border p-4 text-xs">
+<div class="flex flex-col gap-y-2 rounded-xl border border-gray-100 p-4 text-xs">
 	<ExperienceBoxHeader {imageColorClass} {image} {title} {employer} />
 	<ExperienceBullets {bullets} />
 	<div class="flex justify-between">

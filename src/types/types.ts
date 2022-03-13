@@ -5,7 +5,7 @@ interface Job {
 	imageColorClass: string;
 	bullets: string[];
 	timeframe: Timeframe;
-	contractType: string;
+	contractType: string[];
 	locations: string[];
 }
 

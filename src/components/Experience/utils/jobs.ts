@@ -10,7 +10,7 @@ export const jobs: Jobs = [
 			'Various projects at the interface of software development, UX design and data visualisation.'
 		],
 		timeframe: { start: '2020-10' },
-		contractType: 'Freelance',
+		contractType: ['Contract', 'Full-time'],
 		locations: ['Remote']
 	},
 	{
@@ -23,7 +23,7 @@ export const jobs: Jobs = [
 			'Full-stack development, UX / UI design, creative direction and project management.'
 		],
 		timeframe: { start: '2020-12' },
-		contractType: 'Freelance',
+		contractType: ['Contract', 'Part-time'],
 		locations: ['Remote', 'Nairobi, Kenya']
 	},
 	{
@@ -36,7 +36,7 @@ export const jobs: Jobs = [
 			'Designed visualisations and established UI component library using Storybook.'
 		],
 		timeframe: { start: '2021-05', end: '2021-07' },
-		contractType: 'Freelance',
+		contractType: ['Contract', 'Full-time'],
 		locations: ['Remote', 'London, UK']
 	},
 	{
@@ -49,7 +49,7 @@ export const jobs: Jobs = [
 			'Worked from briefs to write data-driven stories and visualisations for communications materials.'
 		],
 		timeframe: { start: '2017-10', end: '2018-04' },
-		contractType: 'Freelance',
+		contractType: ['Full-time'],
 		locations: ['Oxford, UK']
 	}
 ];
