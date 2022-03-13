@@ -6,7 +6,7 @@
 	];
 </script>
 
-<div class="flex flex-col gap-y-0.5 rounded-sm p-2 text-2xs">
+<div class="flex flex-col gap-y-0.5 rounded-sm p-2 text-xs">
 	{#each credentials as { icon, credential }}
 		<div class="flex items-center gap-x-2">
 			<div class="w-3 text-indigo-400"><img src={`/credentials/${icon}`} alt={icon} /></div>

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { Timeframe } from 'src/types/types';
 
-	import { getMonthDiff, getTimeframe } from '../utils/utils';
+	import { getMonthDiff, getTimeframe } from '../../utils/utils';
 
 	export let timeframe: Timeframe;
 </script>
