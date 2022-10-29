@@ -2,6 +2,20 @@ import type { Jobs } from 'src/types/types';
 
 export const jobs: Jobs = [
 	{
+		title: 'Engineering Lead',
+		employer: 'kulea - African Commodity Intelligence',
+		image: 'kulea.svg',
+		imageColorClass: 'bg-gray-900',
+		bullets: [
+			'Founding engineer and tech lead for kulea, a seed-funded intelligence platform for African commodities.',
+			'Overseeing product development and managing a team of engineers.',
+			'Full-stack development - React / Next.js, TypeScript, Apollo GraphQL, PostgreSQL, AWS.'
+		],
+		timeframe: { start: '2020-12' },
+		contractType: ['Contract', 'Part-time'],
+		locations: [ 'Nairobi, Kenya', 'Remote']
+	},
+	{
 		title: 'Data Visualisation Engineer & Designer',
 		employer: 'Freelance',
 		image: 'rowland.svg',
@@ -13,19 +27,7 @@ export const jobs: Jobs = [
 		contractType: ['Contract', 'Full-time'],
 		locations: ['Remote']
 	},
-	{
-		title: 'Software Engineer',
-		employer: "Flow - Africa's Commodity Intelligence Platform",
-		image: 'flow.svg',
-		imageColorClass: 'bg-blue-200',
-		bullets: [
-			'Tech Lead of Flow, an intelligence platform bringing transparency to African commodity supply chains.',
-			'Full-stack development, UX / UI design, creative direction and project management.'
-		],
-		timeframe: { start: '2020-12' },
-		contractType: ['Contract', 'Part-time'],
-		locations: ['Remote', 'Nairobi, Kenya']
-	},
+
 	{
 		title: 'Software Engineer',
 		employer: 'Supernova AI',
@@ -40,7 +42,7 @@ export const jobs: Jobs = [
 		locations: ['Remote', 'London, UK']
 	},
 	{
-		title: 'Data Scientist',
+		title: 'Data Scientist & Visualisation Specialist',
 		employer: 'Global Canopy',
 		image: 'globalcanopy.svg',
 		imageColorClass: 'bg-green-200',
