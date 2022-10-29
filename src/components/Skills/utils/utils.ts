@@ -9,16 +9,13 @@ export const skills: { language: string; libraries: string[] }[] = [
 			'deck.gl',
 			'Apollo',
 			'Redux',
-			'Node',
+			'Node / Express',
 			'Express'
 		]
 	},
 	{
-		language: 'Programming / Tech',
-		libraries: ['Python', 'R', 'GraphQL', 'AWS Lambda', 'Heroku', 'PostgreSQL']
+		language: 'Programming / Web',
+		libraries: [  'AWS Lambda', 'Heroku', 'PostgreSQL','Tailwind CSS', 'GitHub', 'Figma',]
 	},
-	{
-		language: 'Web / Design',
-		libraries: ['HTML', 'Tailwind CSS', 'Sanity CMS', 'Git / GitHub', 'Figma', 'Adobe CC']
-	}
+	
 ];

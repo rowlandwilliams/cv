@@ -7,6 +7,7 @@ export const jobs: Jobs = [
 		image: 'kulea.svg',
 		imageColorClass: 'bg-gray-900',
 		bullets: [
+			'Founding engineer and tech lead for kulea, a seed-funded intelligence platform for African commodities.',			
 			'Founding engineer and tech lead for kulea, a seed-funded intelligence platform for African commodities.',
 			'Overseeing product development and managing a team of engineers.',
 			'Full-stack development - React / Next.js, TypeScript, Apollo GraphQL, PostgreSQL, AWS.'

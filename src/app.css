@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 .container {
-	width: 8.25in;
-	height: 11.75in;
+	width: 8.5in;
+	height: 11in;
 	margin: 0 0 0 0;
 }
 
 @media print {
 	body {
-		width: 8.25in;
-		height: 11.75in;
+		width: 8.5in;
+		height: 11in;
 		margin: 0 0 0 0;
 	}
 }
