@@ -8,9 +8,9 @@ export const jobs: Jobs = [
 		imageColorClass: 'bg-gray-900',
 		bullets: [
 			'Founding engineer and tech lead for kulea, a seed-funded intelligence platform for African commodities.',			
-			'Founding engineer and tech lead for kulea, a seed-funded intelligence platform for African commodities.',
-			'Overseeing product development and managing a team of engineers.',
-			'Full-stack development - React / Next.js, TypeScript, Apollo GraphQL, PostgreSQL, AWS.'
+			'Overseeing product development and managing a team of engineers in Nairobi, Kenya.',
+			'Full-stack development - React / Next.js, TypeScript, d3.js, Apollo GraphQL, PostgreSQL & AWS.',
+			'UI/UX design and creative direction.'
 		],
 		timeframe: { start: '2020-12' },
 		contractType: ['Contract', 'Part-time'],
