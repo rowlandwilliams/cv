@@ -4,7 +4,7 @@
 
 <Row rowHeader="Bio">
 	<p>
-		I am a developer and designer with a particular interest in data visualisation. I combine
-		computational thinking with creativity to generate immersive, data-driven experiences.
+		I am a full-stack Software Engineer with an interest in information visualisation. I connect data, design and technology to build apps
+		that explore and visualise complex information. I primarily work in TypeScript and React, GraphQL and d3.js are technologies I enjoy using.
 	</p>
 </Row>

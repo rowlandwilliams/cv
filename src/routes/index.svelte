@@ -6,7 +6,7 @@
 	import Skills from '../components/Skills/Skills.svelte';
 </script>
 
-<section class="container px-4 flex flex-col border text-xs">
+<section class="container flex flex-col border px-4 text-xs">
 	<div class="h-full w-full overflow-hidden bg-white">
 		<Header />
 		<Bio />

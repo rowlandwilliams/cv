@@ -2,20 +2,28 @@ export const skills: { language: string; libraries: string[] }[] = [
 	{
 		language: 'JavaScript',
 		libraries: [
-			'React',
+			'React / Next.js',
 			'TypeScript',
 			'Svelte',
 			'd3.js',
 			'deck.gl',
-			'Apollo',
+			'Apollo / urql',
 			'Redux',
-			'Node / Express',
+			'Node',
 			'Express'
 		]
 	},
 	{
 		language: 'Programming / Web',
-		libraries: [  'AWS Lambda', 'Heroku', 'PostgreSQL','Tailwind CSS', 'GitHub', 'Figma',]
-	},
-	
+		libraries: [
+			'REST',
+			'GraphQL',
+			'AWS ',
+			'Heroku',
+			'PostgreSQL',
+			'Tailwind CSS',
+			'GitHub',
+			'Figma'
+		]
+	}
 ];

@@ -36,7 +36,7 @@ export const jobs: Jobs = [
 		imageColorClass: 'bg-black',
 		bullets: [
 			'Discovery work for a novel ESG Investment platform.',
-			'Developed visualisations and established UI component library using Storybook.'
+			'Developed visualisations using d3.js and established UI component library using Storybook.'
 		],
 		timeframe: { start: '2021-05', end: '2021-07' },
 		contractType: ['Contract', 'Full-time'],

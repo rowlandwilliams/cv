@@ -2,7 +2,7 @@
 	const credentials = [
 		{ icon: 'website.svg', credential: 'rowlandwilliams.me' },
 		{ icon: 'email.svg', credential: 'rowland.williams.94@gmail.com' },
-		{ icon: 'location.svg', credential: 'Jersey, UK' }
+		{ icon: 'location.svg', credential: 'UK' }
 	];
 </script>
 
